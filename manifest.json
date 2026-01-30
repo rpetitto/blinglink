@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Link Pretty-Fier",
+  "version": "1.0",
+  "description": "Create a rich link preview and draft it in Gmail.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Pretty-Fy This Link",
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}

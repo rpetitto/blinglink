@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Link Pretty-Fier</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Link Preview</h2>
+    
+    <div id="card-preview" class="card">
+      <div class="card-image-container">
+        <img id="og-image" src="" alt="Link Preview" class="card-image" />
+      </div>
+      <div class="card-content">
+        <h3 id="og-title" class="card-title">Loading...</h3>
+        <p id="og-desc" class="card-desc"></p>
+        <div class="card-footer">
+          <img id="favicon" src="" alt="" class="card-favicon">
+          <span id="domain" class="card-domain"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <button id="draft-btn" class="btn-primary">Copy & Draft in Gmail</button>
+      <div id="toast" class="toast hidden">Preview copied! Press Ctrl+V in Gmail.</div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
