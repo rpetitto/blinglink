@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Link Pretty-Fier",
+  "name": "BlingLink",
   "version": "1.0",
   "description": "Create a rich link preview and draft it in Gmail.",
   "permissions": [
@@ -15,7 +15,7 @@
   },
   "action": {
     "default_popup": "popup.html",
-    "default_title": "Pretty-Fy This Link",
+    "default_title": "Bling This Link",
     "default_icon": {
       "16": "icon.png",
       "32": "icon.png",
